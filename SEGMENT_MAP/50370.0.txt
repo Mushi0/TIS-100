@@ -1,0 +1,44 @@
+@0
+
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+MOV ACC RIGHT
+ADD 1
+
+@9
+MOV 0 DOWN
+MOV LEFT DOWN
+START:
+SAV
+SUB 30
+JEZ ZERO
+SWP
+MOV 3 DOWN
+ADD 1
+JMP START
+
+ZERO:
+MOV -1 DOWN
+
+@10
